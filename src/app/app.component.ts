@@ -14,7 +14,4 @@ export class AppComponent {
   imageRando = "https://cdn1.iconfinder.com/data/icons/hobby-vol-2-innovicons-black-and-white/128/climbing-mountain-alpinism-flag-1024.png"
 // Image profil
   imageprofil = "https://cdn1.iconfinder.com/data/icons/ionicons-sharp-vol-2/512/person-circle-sharp-1024.png"
-  // Logos Sociaux
-  imageLinkedin = "https://fr.wikipedia.org/wiki/Fichier:LinkedIn_logo_initials.png"
-  imageGitHub = "https://github.com/logos"
 }
