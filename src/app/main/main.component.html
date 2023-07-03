@@ -1,37 +1,21 @@
 <main>
-    <section class="blocpresentation">
-      <div class="nometmetier">
-        <h1>Thibault Sanclemente</h1>
-        <p class="metier">DÉVELOPPEUR WEB & MOBILE</p>
-      </div>
-      <div class="projetintro">
-        <h2 class="projet">Projet Professionnel</h2>
-        <p class="intro">
-          Développeur web & mobile à la recherche d’un contrat en CDD ou CDI sur Toulouse ou à distance. Expérience en recrutement, marketing et relation client.</p>
-      </div>
-    </section>
-    <section class="blocmaincontent">
-      <img [src]="imageprofil" alt="" width="35px">
-      <div class="BlocXPFORM">
-          <div class="xp">
-            <h2>Expériences</h2>
-            <span>
-              <p></p>
-              <p></p>
-            </span>
-            <span>
-              <h3></h3>
-              <p></p>
-            </span>
-        </div>
-        <div class="formation">
-          <h2>Formations</h2>
-          <div>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-      </div>
+  <section class="blocpresentation">
+    <div class="nometmetier">
+      <h1>Thibault Sanclemente</h1>
+      <p class="metier">DEVELOPPEUR WEB & MOBILE</p>
+    </div>
+    <div class="projetintro">
+      <h2 class="projet">Projet Professionnel</h2>
+      <p class="intro">
+        Développeur web & mobile à la recherche d’un contrat en CDD ou CDI sur
+        Toulouse ou à distance. Expérience en recrutement, marketing et relation
+        client.
+      </p>
+    </div>
+  </section>
+  <section class="blocmaincontent">
+    <div class="colonne">
+      <img [src]="imageprofil" alt="" />
       <div class="BlocCompétences">
         <h2>Compétences techniques</h2>
         <p></p>
@@ -40,12 +24,110 @@
       </div>
       <div class="BlocCentresdinteret">
         <h2>Centres d'intérêt</h2>
-        <span>
-          <img [src]="imageAvion" alt="" width="35px">
-          <img [src]="imageManette" alt="" width="35px">
-          <img [src]="imageBallon" alt="" width="35px">
-          <img [src]="imageRando" alt="" width="35px">
+        <span class="logosactivites">
+          <img [src]="imageAvion" alt="" width="35px" />
+          <img [src]="imageManette" alt="" width="35px" />
+          <img [src]="imageBallon" alt="" width="35px" />
+          <img [src]="imageRando" alt="" width="35px" />
         </span>
       </div>
-    </section>
-  </main>
+    </div>
+    <div class="colonne">
+      <div class="BlocXPFORM">
+        <div class="xp">
+          <span class="colonne">
+            <h2>Expériences</h2>
+            <p>2021 - Aujourd'hui</p>
+            <p>OpenClassrooms,
+                Apple Dev Tutorials,
+                Swift Playgrounds,
+                Sololearn</p>
+          </span>
+          <span class="colonne">
+            <h3>Développeur Web</h3>
+            <p>Utilisation de Git
+                Création d'un site de vente &
+                location de chalets avec
+                Wordpress
+                Création d'un intranet pour un
+                groupe bancaire avec HTML, CSS,
+                PHP & MySQL
+                Création d'un site de vente de
+                canapés en Javascript
+                Création d'un site commercial
+                pour la vente de sauces
+                pimentées en Javascript
+                Création d'une application iOS de
+                présentation de points d'intérêt
+                avec favoris
+                Création d'une application iOS
+                pour compter le score d'un
+                match de tennis</p>
+          </span>
+        </div>
+
+        <div class="xp">
+            <span class="colonne">
+              <p>Aou 2017 - Dec 2020</p>
+              <p>OpenClassrooms,
+                  Apple Dev Tutorials,
+                  Swift Playgrounds,
+                  Sololearn</p>
+            </span>
+            <span class="colonne">
+              <h3>Chargé de recrutement</h3>
+              <p>Randstad (Saint-Denis) &
+                Manpower (Pau)</p>
+            </span>
+          </div>
+
+          <div class="xp">
+            <span class="colonne">
+              <p>Mai - Aou 2016</p>
+              <p>Dublin (Irlande)</p>
+            </span>
+            <span class="colonne">
+              <h3>Marketing</h3>
+              <p>GD Seventy Eight Music Ltd,
+                Responsable Marketing & Distribution</p>
+            </span>
+          </div>
+
+          <div class="xp">
+            <span class="colonne">
+              <p>Oct - Nov 2014</p>
+            </span>
+            <span class="colonne">
+              <p>Galeries Lafayette
+                Assistant marketing</p>
+            </span>
+          </div>
+
+        <div class="formation">
+          <h2>Formations</h2>
+          <div class="colform">
+            <span class="annee"><b>2021 - 2022</b></span>
+            <span class="nomdiplome">
+                <p><b>Développeur Web Bac+2</b></p>
+                <span>OpenClassrooms</span>
+            </span>    
+        </div>
+        <div class="colform">
+            <span class="annee"><b>2017 - 2020</b></span>
+            <span class="nomdiplome">
+                <p><b>Master RH</b></p>
+                <span>ESC Pau</span>
+            </span>
+        </div>    
+          <div class="colform">
+            <span class="annee"><b>2014 - 2017</b></span>
+            <span class="nomdiplome">
+                <p><b>Bachelor Commerce</b></p>
+                <span>EGC Tarbes</span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

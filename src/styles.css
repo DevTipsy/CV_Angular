@@ -1,6 +1,6 @@
 body {
-    display: block;
     background-color: #71aefb;
     margin: 0;
     height: 100vh;
+    font-family: 'galano-grotesque', sans-serif;
 }

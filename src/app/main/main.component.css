@@ -1,5 +1,101 @@
 /* Main */
+main {
+    margin:3%;
+}
+/* Presentation */
 h1, .metier {
     font-family: 'galano-grotesque-demo-bold', sans-serif;
     color: #e56f45;
+}
+
+.blocpresentation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nometmetier, h1 {
+    width: 50%;
+    margin: 0;
+}
+
+.nometmetier h1 {
+    font-size: 40px;
+}
+
+.projetintro {
+    width: 40%;
+}
+
+/* Bulles */
+.blocmaincontent {
+    display: flex;
+    gap: 25px;
+}
+
+img {
+    width: 150px;
+    align-self: center;
+}
+
+.colonne {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* Bloc 1 */
+.BlocXPFORM {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    height: auto;
+}
+
+h3 {
+    color: #e56f45;
+}
+
+.xp {
+    display: inline-flex;
+}
+
+.colform {
+    margin: 25px 0;
+    display: flex;
+}
+
+.annee {
+    width: 50%;
+    color: #e56f45;
+}
+
+.nomdiplome{
+    width: 50%;
+}
+
+.nomdiplome p{
+    margin: 0;
+}
+
+/* Bloc 2 */
+.BlocCompétences {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+/* Bloc 3 */
+.BlocCentresdinteret {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.logosactivites {
+display: flex;
+}
+
+.BlocCentresdinteret img {
+    width: 35px;
+    margin: auto;
 }
