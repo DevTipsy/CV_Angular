@@ -4,28 +4,3 @@ body {
     margin: 0;
     height: 100vh;
 }
-
-header {
-    display: flex;
-    justify-content: space-between;
-    margin: 15px 2%;
-}
-
-/* Logos du header */
-.logosociaux img {
-
-    margin: 0px 10px;
-    }
-
-/* Infos contact du header */
-.intro p {
-    margin: 0;
-    text-align: right;
-}
-
-
-/* Main */
-h1, .metier {
-    font-family: 'galano-grotesque-demo-bold', sans-serif;
-    color: #e56f45;
-}
