@@ -1,7 +1,12 @@
+html {
+    min-width: 650px;
+}
+
 /* Main */
 main {
-    margin:3%;
+    margin: 2% 10%;
 }
+
 /* Presentation */
 h1, .metier {
     font-family: 'galano-grotesque-demo-bold', sans-serif;
@@ -14,7 +19,6 @@ h1, .metier {
 }
 
 .nometmetier, h1 {
-    width: 50%;
     margin: 0;
 }
 
@@ -24,11 +28,18 @@ h1, .metier {
 
 .projetintro {
     width: 40%;
+    margin: 0 10px;
+}
+
+.profil {
+    border-radius: 50%;
+    margin: 10px;
 }
 
 /* Bulles */
 .blocmaincontent {
     display: flex;
+    flex-wrap: wrap;
     gap: 25px;
 }
 
@@ -38,10 +49,19 @@ img {
 }
 
 .colonne {
-    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 25px;
+}
+
+.col-gauche, .col-droite {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .col-gauche, .col-droite {
+        width: 49%;
+    }
 }
 
 /* Bloc 1 */
@@ -56,25 +76,27 @@ h3 {
     color: #e56f45;
 }
 
-.xp {
-    display: inline-flex;
+.xp, .formation {
+    display: flex;
+    flex-direction: column;
 }
 
 .colform {
     margin: 25px 0;
     display: flex;
+    justify-content: space-between;
 }
 
 .annee {
-    width: 50%;
+    width: 20%;
     color: #e56f45;
 }
 
-.nomdiplome{
-    width: 50%;
+.nomdiplome, .nomposte {
+    width: 80%;
 }
 
-.nomdiplome p{
+.nomdiplome p, .nomposte p {
     margin: 0;
 }
 
@@ -84,15 +106,18 @@ h3 {
     border-radius: 10px;
     padding: 10px;
 }
+
 /* Bloc 3 */
 .BlocCentresdinteret {
     background-color: white;
     border-radius: 10px;
     padding: 10px;
+    margin-bottom: 10%;
 }
 
 .logosactivites {
-display: flex;
+    display: flex;
+    padding: 20px;
 }
 
 .BlocCentresdinteret img {
